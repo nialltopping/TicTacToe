@@ -170,7 +170,7 @@ namespace TicTacToe
         {
             Console.Clear();
             GameBoard.Render(BoardArray);
-            Console.WriteLine("Careful, Player {0}! That space has already been taken!" + 
+            Console.WriteLine("Try again, Player {0}! That space has already been taken!" + 
                               "\nPress any key to continue.", Player);
             Console.ReadKey();
         }
